@@ -1,0 +1,39 @@
+.navbar-container{
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    z-index: 1;
+  }
+  .nav-container{
+    width: 50%;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  
+  .nav-brand{
+    font-family: 'Cinzel',serif !important;
+    text-decoration: none; 
+  }
+
+  
+@media screen and (max-width: 992px) {
+
+  
+  
+}
+
+@media screen and (max-width: 500px) {
+ 
+  .nav-container{
+    width: 68%;
+
+  
+    
+    
+  }
+
+
+  
+}
