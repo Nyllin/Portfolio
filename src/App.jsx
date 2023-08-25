@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
 import NavPage from "./components/NavPage";
-import videoBg from "./assets/firevideo.mp4";
+import videoBg from "./assets/video.mp4";
 import About from "./components/About";
 import { AnimatePresence } from "framer-motion";
 import Footer from "./components/Footer";

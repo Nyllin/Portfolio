@@ -1,5 +1,5 @@
 import { Button, Card } from "react-bootstrap";
-import Gym from '../assets/Gymfitness.png';
+import Gym from '../assets/Gym.png';
 import Expense from '../assets/ExpenseTracker.png'
 import Admin from '../assets/AdminDashboard.png'
 import { motion } from "framer-motion";

@@ -20,10 +20,10 @@ const About = () => {
             <h1 className="display-6 text-center text-light">About me</h1>
           </Card.Title>
           <Card.Text className="text-justify text-light">
-            Greetings! I'm <span className="text-warning">Nay Yi Lin</span>, a React Js enthusiast who embarked on a
+            Greetings! I&apos;m <span className="text-warning">Nay Yi Lin</span>, a React Js enthusiast who embarked on a
             web development journey in May 2021. I specialize in crafting
-            captivating frontend experiences. I'm passionate about solving
-            coding challenges and constantly expanding my web wizardry. Let's
+            captivating frontend experiences. I&apos;m passionate about solving
+            coding challenges and constantly expanding my web wizardry. Let&apos;s
             connect and shape the digital realm together!
           </Card.Text>
           <div>
