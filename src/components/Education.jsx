@@ -1,5 +1,5 @@
 import '../styles/Education.css'
-import SchoolIcon from '@material-ui/icons/School';
+import SchoolIcon from '@mui/icons-material/School';
 import { Link } from 'react-router-dom';
 import {VerticalTimeline,VerticalTimelineElement} from "react-vertical-timeline-component";
 

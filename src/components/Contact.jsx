@@ -1,8 +1,8 @@
 import '../styles/Contact.css'
 import { motion } from "framer-motion";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import { GitHub } from '@material-ui/icons';
-import EmailIcon from '@material-ui/icons/Email';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { GitHub } from '@mui/icons-material';
+import { Email } from '@mui/icons-material';
 
 
 const Contact = () => {
@@ -19,14 +19,14 @@ const Contact = () => {
           }}
         >
         <div className='contacticon-container'>
-        <a href='https://github.com/Nyllin' target='_blank' className='contact-link'><GitHub className='contact-icon'/></a>
-        <a href='https://www.linkedin.com/in/nay-yi-lin-244616236/' target='_blank' className='contact-link'><LinkedInIcon className='contact-icon'/></a>
+        <a href='https://github.com/Nyllin' rel="noreferrer" target='_blank' className='contact-link'><GitHub className='contact-icon'/></a>
+        <a rel="noreferrer" href='https://www.linkedin.com/in/nay-yi-lin-244616236/' target='_blank' className='contact-link'><LinkedInIcon className='contact-icon'/></a>
         </div>
         <ol className="list text-light m-5 text-center">
           <li className="item p-2">
-         <EmailIcon className='contactlist-icon'/> :
+         <Email className='contactlist-icon'/> :
             <span>
-            <a className='contact-link' target='_blank' href="mailto: nayyi0608@gmail.com"> nayyi0608@gmail.com</a>
+            <a className='contact-link' rel="noreferrer" target='_blank' href="mailto: nayyi0608@gmail.com"> nayyi0608@gmail.com</a>
             </span>
           </li>
         </ol>
